@@ -45,12 +45,7 @@ print('Укажите позиции перемножаемых элементо
 list_position = list(input().split())
 
 check = True 
-while check:
-    # if len(list_position) > len(list_random):
-    #     print('Указанных позиций больше чем элементов в списке')
-    #     print('Укажите позиции перемножаемых элементов:', end=' ')
-    #     list_position = list(input().split())
-    #     continue  
+while check: 
     if not is_int_position(list_position):
         print('Одна из указанных позиций не целое число')
         print('Укажите позиции перемножаемых элементов:', end=' ')
